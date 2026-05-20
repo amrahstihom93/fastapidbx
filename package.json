@@ -1,0 +1,19 @@
+{
+  "name": "freeapi-databricks-lakehouse",
+  "version": "1.0.0",
+  "description": "A professional Databricks-native Delta Lakehouse for FreeAPI",
+  "main": "index.js",
+  "scripts": {
+    "test:ingest": "python -m unittest tests/test_ingest.py"
+  },
+  "keywords": [
+    "databricks",
+    "pyspark",
+    "delta-lake",
+    "autoloader",
+    "data-engineering",
+    "lakehouse"
+  ],
+  "author": "Mohit Sharma",
+  "license": "MIT"
+}
